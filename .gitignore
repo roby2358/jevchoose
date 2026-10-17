@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+
+# API keys (JEV_KEY, OPENROUTER_API_KEY)
+.env.secure
+
+# story inputs and generated stories stay local; nightfall is the tracked example
+open_*
+story_*
+!open_nightfall.md
